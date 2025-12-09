@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int, input().split()))
+lowest = min(arr)
+index = arr.index(lowest)
+print(lowest, index + 1)

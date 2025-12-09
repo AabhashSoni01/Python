@@ -1,0 +1,5 @@
+n = int(input())
+nums = map(int, input().split())
+total = sum(nums)
+result = abs(total)
+print(result)
