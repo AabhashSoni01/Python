@@ -1,0 +1,13 @@
+n = int(input())
+arr = list(map(int, input().split()))
+minimum = min(arr)
+count = 0
+
+for i in range(n):
+    if arr[i] == minimum:
+        count += 1
+
+if count % 2 == 0:
+    print("Unlucky")
+else:
+    print("Lucky")
